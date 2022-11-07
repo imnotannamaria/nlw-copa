@@ -29,7 +29,7 @@ export default function App() {
           translucent
         />
         <Center flex={1} bg="gray.900">
-          { !fontsLoaded ? <Loading /> : <Pools /> }
+          { !fontsLoaded ? <Loading /> : <SignIn /> }
         </Center>
       </AuthContextProvider>
     </NativeBaseProvider>
